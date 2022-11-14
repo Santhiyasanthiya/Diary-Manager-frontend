@@ -36,16 +36,24 @@ function ViewNotes() {
   return (
     <div className='container shadow-lg p-3 mb-5 bg-body rounded'>
 
-      <div className=' shadow-lg p-3 mb-5 bg-body rounded btn btn-sm btn-info mr-2'>
+      <div className='shadow-lg p-3 mb-5 bg-body rounded btn btn-sm btn-info mr-2'>
         <Link to="/portal/dairy" className="d-none d-sm-inline-block btn btn-sm btn shadow-lg"><h6>Back</h6></Link>
       </div>
         
-      <div className='row shadow-lg p-3 mb-5 bg-body rounded'>
+<div className='row'>
+<div className='col-lg-9 shadow-lg p-3 mb-5 bg-body rounded'>
         <h4>{userData.title}</h4>
       </div>
+
+      <div className='col-lg-3 shadow-lg p-3 mb-5 bg-body rounded'>
+        <h3 className='font'>Date</h3>
+        <h4>{userData.date}</h4>
+      </div>
+
       <div className='row shadow-lg p-3 mb-5 bg-body rounded'>
         <h5>{userData.notes}</h5>
       </div>
+</div>
 
     </div>
   )

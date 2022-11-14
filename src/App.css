@@ -37,13 +37,15 @@
   }
 }
 
-/* ---------------- Login ------------------------------ */
+/* ------------------------------- Login --------------------------------------------- */
 
+.test{
+  color: aqua;
+}
 .allLogin{
   margin : 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 .bodyLogin{
@@ -51,24 +53,17 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-background-image: url("https://www.anxietycanada.com/wp-content/uploads/2019/02/background-black-blank-733857.jpg");
-background-repeat: no-repeat;
-background-size:2000px;
-text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  background:linear-gradient(to right, rgb(75, 200, 75), rgb(3, 199, 143),rgb(55, 101, 141),rgb(38, 247, 230));
 }
-
-
-
 
 .box{
   position: relative;
   width: 380px;
   height: 500px;
-  background: #1c1c1c;
+  background: rgb(241, 201, 201);
   border-radius: 8px;
   overflow: hidden;
 }
-
 
 .box::before{
   content: '';
@@ -77,7 +72,7 @@ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   left: -50%;
   width: 380px;
   height: 420px;
-  background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+  background: linear-gradient(0deg, transparent, red, #eaff00);
   transform-origin: bottom right;
   animation: animate 6s linear infinite;
 }
@@ -89,7 +84,7 @@ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   left: -50%;
   width: 380px;
   height: 420px;
-  background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+  background: linear-gradient(0deg, transparent, red, #fdfd0c);
   transform-origin: bottom right;
   animation: animate 6s linear infinite;
   animation-delay: -3s;
@@ -110,14 +105,15 @@ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
    position: absolute;
    inset:2px;
    border-radius: 8px;
-   background: #28292d;
+   background: #000000;
    z-index: 10;
    padding: 50px 40px;
    display: flex;
    flex-direction: column;
 }
 .form h2{
-  color: #45f3ff;
+  color: #d9e5ed;
+   text-shadow: 2px 4px 6px rgb(239, 170, 170);
   font-weight: 500;
   text-align: center;
   letter-spacing: 0.1em;
@@ -137,7 +133,7 @@ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   background: transparent;
   border: none;
   outline: none;
-  color: #23242a;
+  color: #ce0000;
   font-size:  1em;
   letter-spacing: 0.05em;
   z-index: 10;
@@ -148,7 +144,7 @@ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   left: 0;
   padding: 20px 0px 10px;
   font-size: 1em;
-  color: #8f8f8f;
+  color: #a80000;
   pointer-events: none;
   letter-spacing: 0.05em;
   transition: 0.5s;
@@ -157,7 +153,7 @@ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 .inputBox input:valid ~ span,
 .inputBox input:focus ~ span
 {
-  color: #45f3ff;
+  color: #e9e9f6;
   transform: translateX(0px) translateY(-34px);
   font-size: 0.75em;
 }
@@ -168,7 +164,7 @@ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   bottom: 0;
   width: 100%;
   height: 2px;
-  background: #45f3ff;
+  background: #15f039;
   border-radius: 4px;
   transition: 0.5s;
   pointer-events: none;
@@ -190,19 +186,19 @@ justify-content: space-between;
 .links a{
   margin: 15px 0;
   font-size: 0.9em;
-  color: #8f8f8f;
+  color: #fffdfd;
   text-decoration: none;
 }
 
 .links a:hover,
 .links a:nth-child(2){
-  color: #45f3ff;
+  color: #a50000;
 }
 
 button[type="submit"]{
   border: none;
   outline: none;
-  background: #45f3ff;
+  background: #1ede04;
   padding: 11px 25px;
   width: 100px;
   margin-top: 10px;
@@ -231,8 +227,8 @@ button[type="submit"]:active{
 .nav {
   font-weight: bold;
   color: rgb(118, 4, 84);
-  margin-left: 40px;
-  font-family:cursive;
+  margin-left: 30px;
+  font-family:italic;
   cursor:pointer;
 }
 
@@ -248,7 +244,7 @@ button[type="submit"]:active{
     .font{
       font-weight: bold;
       font-size: 25px;
-      color: rgb(55, 43, 226);
+      color: rgb(226, 43, 217);
       font-style:italic;
     }
 
@@ -266,8 +262,8 @@ button[type="submit"]:active{
 
 .dairy{
   @import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Lobster&family=Montserrat:ital,wght@0,300;0,600;1,600&display=swap');
-color:magenta ;
-font-family: Segoe Script;
+color:rgb(119, 0, 255) ;
+/* font-family: Segoe Script; */
 font-size: 40px;
 
 }
@@ -279,4 +275,10 @@ font-size: 40px;
 .home{
   color:rgb(37, 5, 94);
 }
+
+/* ------home.js------------- */
+
+
+
+
 

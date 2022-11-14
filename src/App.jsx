@@ -13,15 +13,17 @@ import SignUp from './SignUp';
 import Dairy from './Dairy';
 import ViewNotes from './ViewNotes';
 import EditNotes from './EditNotes';
+import Home from './Home';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={< Login />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="/forget-password" element={<ForgetPassword />} />
-        <Route path="/portal" element={<Portal />} >
+          <Route path="/" element={< Login />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/forget-password" element={<ForgetPassword />} />
+          <Route path="/portal" element={<Portal />} >
+          <Route path='home' element={<Home/>} />
           <Route path="create-notes" element={<CreateNotes/>} />
           <Route path="dairy" element={<Dairy/>} />
           <Route path="dairy/view/:id" element={<ViewNotes/>} />

@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 function Navbar() {
@@ -12,7 +12,9 @@ function Navbar() {
 
     return (
              <nav class="navbar navbar-expand-sm bg-success navbar-success"> 
-             <a class="nav"> MY DAIRY</a>
+
+             <Link to="/portal/dairy" class="nav"> MY DAIRY</Link>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -20,7 +22,7 @@ function Navbar() {
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                       <h4 className='nav'>Home</h4>
+                       <Link to="/portal/home" className='nav'>Home</Link>
                     </li>               
                 </ul>
                 

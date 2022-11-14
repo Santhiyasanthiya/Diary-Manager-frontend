@@ -22,7 +22,7 @@ function Login() {
           window.localStorage.setItem("app-token", loginData.data.token)
           window.localStorage.setItem("email", loginData.data.email)
           alert("Successfully Login")
-          navigate("/portal/dairy")
+          navigate("/portal/home")
         } else {
           alert("E-mail / Password is wrong")
         }
@@ -34,15 +34,15 @@ function Login() {
     },
   })
   return (
-   
-    <div className='login'> 
-      <div className='allLogin'>      
-        <div className='bodyLogin'> 
-           
+
+    <div className='login'>
+      <div className='allLogin'>
+        <div className='bodyLogin'>
+
           <div className='box'>
-          
+
             <div className='form'>
-            
+
               <h2>Login</h2>
 
               <form class="user" onSubmit={formik.handleSubmit}>
@@ -58,7 +58,7 @@ function Login() {
                   <i></i>
                 </div>
 
-               <div class='links'>
+                <div class='links'>
                   <Link className="a" to="/forget-password"> <p>Forgot Password</p> </Link>
                   <Link className="a" to="/signup"> <p>SignUp</p> </Link>
                 </div>
@@ -66,16 +66,21 @@ function Login() {
                 <button type="submit" class="form-control-user">Login</button>
 
               </form>
-
+              
+              <div className='test'>
+                <h3>For Testing</h3>
+                <ul>EMAIL  :guvi@gmail.com</ul>
+                <ul>PASSWORD  :guvi</ul>
+              </div>
             </div>
 
-          </div> 
+          </div>
 
-        </div> 
+        </div>
 
-       </div> 
-       </div> 
-  
+      </div>
+    </div>
+
   )
 }
 
