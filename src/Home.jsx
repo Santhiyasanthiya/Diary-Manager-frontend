@@ -6,7 +6,8 @@ function Home() {
   return (
     <div className='home_body'>
 <section>
-    <video src={smoke} autoplay muted></video>
+    {/* <video src={smoke} autoplay muted></video> */}
+    {/* <video src="smoke.mp4" autoplay muted></video> */}
     <h1>  
         <span> W</span>
         <span> E </span>
