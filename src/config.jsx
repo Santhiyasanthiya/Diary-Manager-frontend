@@ -1,4 +1,4 @@
 export const env = {
    
-    api : "https://capstonediarymanager.herokuapp.com"
+    api : "https://diary-manager-backend.vercel.app"
 }
