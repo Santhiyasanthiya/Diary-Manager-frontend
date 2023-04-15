@@ -52,8 +52,10 @@
   display:flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background:linear-gradient(to right, rgb(75, 200, 75), rgb(3, 199, 143),rgb(55, 101, 141),rgb(38, 247, 230));
+  min-height: 100vh; 
+background-image: url("https://media.istockphoto.com/id/1347034524/vector/purple-gradient-abstract-curve-and-golden-lines-illustration-background.jpg?s=612x612&w=0&k=20&c=YfEzt8D6j_wMhLYNA7xcWtJDIJCjsRVcy30rVfgd_Ic=");
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 .box{
@@ -105,7 +107,7 @@
    position: absolute;
    inset:2px;
    border-radius: 8px;
-   background: #000000;
+  background:linear-gradient(to right, rgb(109, 0, 91), rgb(141, 2, 88));
    z-index: 10;
    padding: 50px 40px;
    display: flex;
@@ -144,7 +146,7 @@
   left: 0;
   padding: 20px 0px 10px;
   font-size: 1em;
-  color: #a80000;
+  color: #f3dddd;
   pointer-events: none;
   letter-spacing: 0.05em;
   transition: 0.5s;
@@ -192,7 +194,7 @@ justify-content: space-between;
 
 .links a:hover,
 .links a:nth-child(2){
-  color: #a50000;
+  color: #94ffa6;
 }
 
 button[type="submit"]{
@@ -226,7 +228,7 @@ button[type="submit"]:active{
 }
 .nav {
   font-weight: bold;
-  color: rgb(118, 4, 84);
+  color: rgb(253, 252, 253);
   margin-left: 30px;
   font-family:italic;
   cursor:pointer;
@@ -244,17 +246,17 @@ button[type="submit"]:active{
     .font{
       font-weight: bold;
       font-size: 25px;
-      color: rgb(226, 43, 217);
+      color: rgb(41, 3, 179);
       font-style:italic;
     }
 
 
 .fa{
   
-  border-radius: 15px;
+ 
   font-weight: bold;
   font-size: 15px;
-  color: rgb(13, 135, 4);
+  color: rgb(1, 49, 1);
   font-style:italic;
 }
 
@@ -262,21 +264,28 @@ button[type="submit"]:active{
 
 .dairy{
   @import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Lobster&family=Montserrat:ital,wght@0,300;0,600;1,600&display=swap');
-color:rgb(119, 0, 255) ;
-/* font-family: Segoe Script; */
-font-size: 40px;
+color:rgba(34, 2, 71, 0.836) ;
+font-family: Segoe Script;
+font-weight: bold;
+text-align: center;
 
 }
 .DATE{
  font-weight: bold;
  color:hotpink ;
 }
-  
+.titlecolor{
+  color:rgb(71, 4, 185);
+}  
+
 .home{
   color:rgb(37, 5, 94);
 }
 
-/* ------home.js------------- */
+.threebutton{
+display: flex;
+gap:20px;
+}
 
 
 

@@ -71,7 +71,7 @@ function CreateNotes() {
                         <textarea id="comment" className='form-control' type={"text"} value={formik.values.notes} onChange={formik.handleChange} name="notes"></textarea>
                         <span style={{ color: "red" }}>{formik.errors.notes}</span>
                     </div>
-                    <div className='col-lg-1 shadow-lg p-3 bg-body rounded btn btn-sm btn-success mr-2'>
+                    <div className='col-lg-1 shadow-lg p-2 bg-body rounded btn btn-sm btn-success mr-2'>
                         <input className='btn btn-success shadow-lg ' type={"submit"} value="Submit" disabled={!formik.isValid}></input>
                     </div>
                 </div>

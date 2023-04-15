@@ -68,9 +68,10 @@ function Login() {
               </form>
               
               <div className='test'>
-                <h3>For Testing</h3>
-                <ul>EMAIL  :guvi@gmail.com</ul>
-                <ul>PASSWORD  :guvi</ul>
+                <h5>For Testing</h5>
+
+                <ul>EMAIL :guvi@gmail.com</ul>
+                <ul>PASSWORD :guvi</ul>
               </div>
             </div>
 

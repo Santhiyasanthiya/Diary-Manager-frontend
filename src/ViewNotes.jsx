@@ -42,7 +42,7 @@ function ViewNotes() {
         
 <div className='row'>
 <div className='col-lg-9 shadow-lg p-3 mb-5 bg-body rounded'>
-        <h4>{userData.title}</h4>
+        <h4 className="titlecolor">{userData.title}</h4>
       </div>
 
       <div className='col-lg-3 shadow-lg p-3 mb-5 bg-body rounded'>
@@ -50,7 +50,7 @@ function ViewNotes() {
         <h4>{userData.date}</h4>
       </div>
 
-      <div className='row shadow-lg p-3 mb-5 bg-body rounded'>
+      <div className='col-lg-12 shadow-lg p-3 mb-5 bg-body rounded'>
         <h5>{userData.notes}</h5>
       </div>
 </div>
